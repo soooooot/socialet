@@ -1,0 +1,53 @@
+<html>
+<head>
+  <script src="../js/libs/jquery.min.js"></script>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  
+  <div class="container">
+    <legend>
+      <span>Socialet - Links</span>
+      <button type="button" class="close">x</button>
+    </legend>
+    <div id="alert"></div>
+    <form class="form-horizontal">
+      <fieldset>
+        <div class="form-group">
+          <label for="title" class="col-sm-1 control-label">Title</label>
+          <div class="col-sm-1">
+            <!-- <textarea class="form-control" rows="8" id="content"></textarea> -->
+            <textarea class="form-control" rows="3" id="title"></textarea>
+            <input id="url" type="hidden" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="remark" class="col-sm-1 control-label">Remark</label>
+          <div class="col-sm-1">
+            <!-- <textarea class="form-control" rows="2" id="content"></textarea> -->
+            <!-- <input id="remark" class="form-control" type="input" /> -->
+            <textarea class="form-control" rows="2" id="title"></textarea>
+          </div>
+          <div class="checkbox col-sm-2 col-sm-offset-1">
+            <label>
+              <input id="public" type="checkbox" checked="checked"> Public
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <!-- <button class="btn btn-default">Cancel</button> -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </fieldset> </form>
+  </div>
+
+  <!-- <script src="../js/popup.js"></script> -->
+  <script src="../js/libs/bootstrap-growl.js"></script>
+  <script src="../js/link.js"></script>
+
+</body>
+</html>
